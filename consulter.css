@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(233, 233, 195);
+    padding: 2px;
+
+}
+.nature,.act{
+    display: flex;
+    width:90px ;
+    height:400px ;
+}

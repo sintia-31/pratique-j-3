@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(233, 233, 195);
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+.message,.cont-message{
+    display: flex;
+    justify-items: center;
+    color: white;
+}
+.cont-message{
+    margin-left: 170px;
+    font-size: 40px;
+}
+.message{
+    background: linear-gradient(to right,RED,rgb(80, 79, 79),rgb(80, 79, 79),rgb(80, 79, 79));
+    height: 70px;
+    align-items: center;
+}
+.video{
+     width: 1220px;
+     height: 500px;
+     border: 20px solid white;
+     border-radius: 6px;
+     margin-left: 350px;  
+}
+.acceuil{
+    display: flex;
+    background-color: white;
+    color: white;
+    align-items: center;
+}
+.mod{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+
+}
+.logo{
+    width: 90px;
+}
+.stastic{
+    border: 2px solid;
+    background-color:rgb(118, 169, 245);
+    width: 340px;
+    height: 40px;
+    text-align: center;
+    margin-left: 1500px;
+}
+.experience{
+    background-color: white;
+}
+.cadre{
+    border: 8px solid white;
+    color: white;
+    background-color:rgb(20, 161, 138);
+    text-align: center;
+     }
+
+ .info{
+    background: linear-gradient(to right,orange,white,rgb(107, 235, 107));
+    border: 5px solid white;
+    height: 60px;
+    padding: 20px;
+    font-size: 23px;
+ }
+.footer{
+ display: flex;
+justify-content: space-between;
+}
